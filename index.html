@@ -1,21 +1,99 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Viva el Futbol</title>
-	</head>
-	<body>
-		<div id=title>
+
+<head>
+	<title>Viva el Futbol</title>
+	<link rel="icon" type="image/icon" href="media/favicon/favicon.ico">
+	<style>
+		/* CSS Reset for consistency */
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		/* Base styling */
+		body {
+			font-family: Arial, sans-serif;
+			line-height: 1.6;
+			padding: 10px;
+		}
+
+		/* Responsive text size */
+		html {
+			font-size: 100%;
+		}
+
+		@media (min-width: 600px) {
+			html {
+				font-size: 110%;
+			}
+		}
+
+		@media (min-width: 900px) {
+			html {
+				font-size: 120%;
+			}
+		}
+
+		/* Container styling */
+		.container {
+			width: 100%;
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+
+		/* Example content styling */
+		h1 {
+			font-size: 2em;
+			margin-bottom: 0.5em;
+		}
+
+		h2 {
+			font-size: 1.5em;
+			margin-bottom: 0.2em;
+		}
+
+		p, ul {
+			margin-bottom: 1em;
+		}
+
+		li {
+			margin-left: 1em;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<div id="title">
 			<h1>Fundación Viva el Fútbol</h1>
 		</div>
-		<div id=intro>
+		<div id="intro">
 			<h2>Sobre nosotros</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in varius augue. Duis vestibulum diam sed magna maximus, non malesuada elit auctor. Etiam euismod ipsum eu mauris porttitor, vitae aliquet velit eleifend. Donec mattis mauris eu sem fermentum efficitur. Nam non fringilla ipsum, in tempus erat. Sed mollis felis nulla, aliquam eleifend sapien ornare ac. Curabitur vel odio efficitur, volutpat lacus eu, dapibus nulla.</p>
+				<p>En la Fundación Viva el Fútbol nos dedicamos a la inclusión social a través del fútbol. Nuestra
+					misión es utilizar este deporte como herramienta de integración y desarrollo social, especialmente
+					para niños y niñas refugiados y migrantes forzosos en Argentina.</p>
+				<p>Reconocemos que el fútbol no es solo un deporte, sino una parte integral de la cultura global que
+					ofrece oportunidades para compartir momentos, alegrías y valores universales. Por ello, buscamos
+					mitigar las dificultades de integración que enfrentan los niños migrantes, utilizando el fútbol para
+					fomentar la convivencia y el aprendizaje de nuevas costumbres sin que pierdan sus identidades
+					culturales.</p>
 		</div>
-		<div id=publications>
+		<div id="publications">
 			<h2>Publicaciones</h1>
+				<ul>
+					<li><a href="publications/proyecto_integrar.pdf" target=”_blank”>Proyecto Integrar</a></li>
+				</ul>
+		</div>
+		<div id="contacto">
+			<h2>Contacto</h2>
 			<ul>
-				<li><a href="publications/proyecto_integrar.pdf" target=”_blank”>Proyecto Integrar</a></li>
+				<li>Gonzalo Javier Lema: <a href="mailto:gjlema@gmail.com">gjlema@gmail.com</a></li>
 			</ul>
 		</div>
-	</body>
+	</div>
+</body>
+
 </html>
